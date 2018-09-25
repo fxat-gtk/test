@@ -1,21 +1,23 @@
-# git�̎g�������K�p����
-git�̗��K�p�Ɏg�����Ƃ��̃���
+# gitの使い方練習用メモ
+gitの練習用に使ったときのメモ
 
-## �e��R�}���h����
+## 各種コマンドメモ
 
 - git clone
-	* ���|�W�g����������擾����
-	* ����Ŏ����̃��[�J���ɍ�ƃR�s�[���쐬����
-	* svn�Ƃ̈Ⴂ�́A���̍�ƃR�s�[���ł��u�����`�����肪�o����
+	* リポジトリから情報を取得する
+	* これで自分のローカルに作業コピーを作成する
+	* svnとの違いは、この作業コピー下でもブランチしたりが出来る
 
 - git add / git commit
-	* �V�K�t�@�C����add���āAcommit
-	* ���̕ӂ�svn�Ɠ���
+	* 新規ファイルはaddして、commit
+	* この辺はsvnと同じ
 
 - git push
-	* ���L���|�W�g���ɕύX�𔽉f������
-	* origin��master�̈Ⴂ���悭�������c
+	* 共有リポジトリに変更を反映させる
+	* originとmasterの違いがよく分からん…
+		+ originは、デフォルトのリポジトリ名
+		+ masterは、デフォルトのブランチ名
 
 - git pull
-	* ���̃����o�[��push�������e�������̊��Ɏ�荞��
+	* 他のメンバーがpushした内容を自分の環境に取り込む
 	* 
